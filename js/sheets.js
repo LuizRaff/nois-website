@@ -342,17 +342,24 @@ function obterContainerEquipe(membro, containers) {
     return container;
 }
 
-function criarImagemMembro(nome, fotoNome) {
+function criarImagemMembro(nome, foto) {
     const wrapper = document.createElement('div');
     wrapper.className = 'membro-foto';
 
-    if (!fotoNome) {
+    const fotoValor = (foto || '').trim();
+
+    if (fotoValor.toLowerCase() === 'sem foto') {
         wrapper.appendChild(criarElementoTexto('div', '📷', 'foto-placeholder'));
         return wrapper;
     }
 
+    let filename = fotoValor;
+    if (!filename) {
+        filename = nome + '.png';
+    }
+
     const imagem = document.createElement('img');
-    imagem.src = `../assets/images/equipe/${fotoNome}`;
+    imagem.src = `../assets/images/equipe/${filename}`;
     imagem.alt = nome;
     imagem.loading = 'lazy';
 
@@ -366,7 +373,7 @@ function criarImagemMembro(nome, fotoNome) {
     return wrapper;
 }
 
-function renderizarEquipe(membros) {
+async function renderizarEquipe(membros) {
     const containers = {
         coordenadores: document.querySelector('.equipe-coordenadores'),
         pesquisadoresAssociados: document.querySelector('.equipe-pesquisadores-associados'),
@@ -1208,7 +1215,7 @@ async function inicializarPagina() {
     try {
         if (paginaAtualId === 'pagina-equipe') {
             const membros = await carregarEquipe();
-            renderizarEquipe(membros);
+            await renderizarEquipe(membros);
         }
 
         if (paginaAtualId === 'pagina-projetos') {
