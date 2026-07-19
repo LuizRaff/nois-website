@@ -33,11 +33,44 @@ class BannerSlider {
     }
 
     async loadImages() {
-        this.images = [
+        var fallbackImages = [
             { src: './assets/images/banner/01.png', alt: 'Banner 1' },
             { src: './assets/images/banner/02.png', alt: 'Banner 2' },
             { src: './assets/images/banner/03.png', alt: 'Banner 3' }
         ];
+
+        try {
+            var registry = window.NOISImageRegistry;
+
+            if (registry) {
+                await registry.init();
+
+                if (registry.isReady()) {
+                    var banners = registry.getByCategory('banner');
+
+                    if (banners.length) {
+                        banners.sort(function (a, b) {
+                            var orderDiff = (a.order || 999) - (b.order || 999);
+                            if (orderDiff !== 0) return orderDiff;
+                            return (a.name || '').localeCompare(b.name || '');
+                        });
+
+                        this.images = banners.map(function (entry) {
+                            return {
+                                src: registry.resolvePath(entry),
+                                alt: entry.alt || entry.name || ''
+                            };
+                        });
+
+                        return;
+                    }
+                }
+            }
+        } catch (_) {
+            // Fallback silencioso
+        }
+
+        this.images = fallbackImages;
     }
 
     createSlider() {

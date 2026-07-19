@@ -1,0 +1,390 @@
+{
+  "generatedAt": "manual-seed",
+  "source": {
+    "type": "local-seed",
+    "note": "Temporary local manifest. Future GitHub Actions will overwrite this file."
+  },
+  "images": [
+    {
+      "category": "banner",
+      "key": "banner-01",
+      "name": "Banner 1",
+      "filename": "01.png",
+      "path": "assets/images/banner/01.png",
+      "alt": "Banner 1",
+      "order": 1,
+      "aliases": ["01.png", "01", "banner-01"]
+    },
+    {
+      "category": "banner",
+      "key": "banner-02",
+      "name": "Banner 2",
+      "filename": "02.png",
+      "path": "assets/images/banner/02.png",
+      "alt": "Banner 2",
+      "order": 2,
+      "aliases": ["02.png", "02", "banner-02"]
+    },
+    {
+      "category": "banner",
+      "key": "banner-03",
+      "name": "Banner 3",
+      "filename": "03.png",
+      "path": "assets/images/banner/03.png",
+      "alt": "Banner 3",
+      "order": 3,
+      "aliases": ["03.png", "03", "banner-03"]
+    },
+    {
+      "category": "team",
+      "key": "amanda-de-araujo-batista-da-silva",
+      "name": "Amanda de Araujo Batista da Silva",
+      "filename": "amanda-de-araujo-batista-da-silva.png",
+      "path": "assets/images/equipe/amanda-de-araujo-batista-da-silva.png",
+      "alt": "Amanda de Araujo Batista da Silva",
+      "aliases": ["amanda-de-araujo-batista-da-silva.png", "amanda-de-araujo-batista-da-silva", "Amanda de Araujo Batista da Silva.png", "Amanda de Araujo Batista da Silva", "amanda.png", "amanda"]
+    },
+    {
+      "category": "team",
+      "key": "arthur-mendonca-albuquerque",
+      "name": "Arthur Mendonça Albuquerque",
+      "filename": "arthur-mendonca-albuquerque.png",
+      "path": "assets/images/equipe/arthur-mendonca-albuquerque.png",
+      "alt": "Arthur Mendonça Albuquerque",
+      "aliases": ["arthur-mendonca-albuquerque.png", "arthur-mendonca-albuquerque", "Arthur Mendonça Albuquerque.png", "Arthur Mendonça Albuquerque"]
+    },
+    {
+      "category": "team",
+      "key": "bianca-antunes",
+      "name": "Bianca Antunes",
+      "filename": "bianca-antunes.png",
+      "path": "assets/images/equipe/bianca-antunes.png",
+      "alt": "Bianca Antunes",
+      "aliases": ["bianca-antunes.png", "bianca-antunes", "Bianca Antunes.png", "Bianca Antunes"]
+    },
+    {
+      "category": "team",
+      "key": "carlos-jose-de-lima",
+      "name": "Carlos José de Lima",
+      "filename": "carlos-jose-de-lima.png",
+      "path": "assets/images/equipe/carlos-jose-de-lima.png",
+      "alt": "Carlos José de Lima",
+      "aliases": ["carlos-jose-de-lima.png", "carlos-jose-de-lima", "Carlos José de Lima.png", "Carlos José de Lima"]
+    },
+    {
+      "category": "team",
+      "key": "daniela-magalhaes",
+      "name": "Daniela Magalhães",
+      "filename": "daniela-magalhaes.png",
+      "path": "assets/images/equipe/daniela-magalhaes.png",
+      "alt": "Daniela Magalhães",
+      "aliases": ["daniela-magalhaes.png", "daniela-magalhaes", "Daniela Magalhães.png", "Daniela Magalhães"]
+    },
+    {
+      "category": "team",
+      "key": "david-benech",
+      "name": "David Benech",
+      "filename": "david-benech.png",
+      "path": "assets/images/equipe/david-benech.png",
+      "alt": "David Benech",
+      "aliases": ["david-benech.png", "david-benech", "David Benech.png", "David Benech"]
+    },
+    {
+      "category": "team",
+      "key": "esther-campos-rodrigues",
+      "name": "Esther Campos Rodrigues",
+      "filename": "esther-campos-rodrigues.png",
+      "path": "assets/images/equipe/esther-campos-rodrigues.png",
+      "alt": "Esther Campos Rodrigues",
+      "aliases": ["esther-campos-rodrigues.png", "esther-campos-rodrigues", "Esther Campos Rodrigues.png", "Esther Campos Rodrigues"]
+    },
+    {
+      "category": "team",
+      "key": "fernanda-baiao",
+      "name": "Fernanda Baiao",
+      "filename": "fernanda-baiao.png",
+      "path": "assets/images/equipe/fernanda-baiao.png",
+      "alt": "Fernanda Baiao",
+      "aliases": ["fernanda-baiao.png", "fernanda-baiao", "Fernanda Baiao.png", "Fernanda Baiao"]
+    },
+    {
+      "category": "team",
+      "key": "fernando-bozza",
+      "name": "Fernando Bozza",
+      "filename": "fernando-bozza.png",
+      "path": "assets/images/equipe/fernando-bozza.png",
+      "alt": "Fernando Bozza",
+      "aliases": ["fernando-bozza.png", "fernando-bozza", "Fernando Bozza.png", "Fernando Bozza"]
+    },
+    {
+      "category": "team",
+      "key": "giogio-garcia-cristofani",
+      "name": "Giogio Garcia Cristofani",
+      "filename": "giogio-garcia-cristofani.png",
+      "path": "assets/images/equipe/giogio-garcia-cristofani.png",
+      "alt": "Giogio Garcia Cristofani",
+      "aliases": ["giogio-garcia-cristofani.png", "giogio-garcia-cristofani", "Giogio Garcia Cristofani.png", "Giogio Garcia Cristofani"]
+    },
+    {
+      "category": "team",
+      "key": "hanna-brandao",
+      "name": "Hanna Brandão",
+      "filename": "hanna-brandao.png",
+      "path": "assets/images/equipe/hanna-brandao.png",
+      "alt": "Hanna Brandão",
+      "aliases": ["hanna-brandao.png", "hanna-brandao", "Hanna Brandão.png", "Hanna Brandão"]
+    },
+    {
+      "category": "team",
+      "key": "igor-tona-peres",
+      "name": "Igor Tona Peres",
+      "filename": "igor-tona-peres.png",
+      "path": "assets/images/equipe/igor-tona-peres.png",
+      "alt": "Igor Tona Peres",
+      "aliases": ["igor-tona-peres.png", "igor-tona-peres", "Igor Tona Peres.png", "Igor Tona Peres", "igor.png", "igor"]
+    },
+    {
+      "category": "team",
+      "key": "janaina-marchesi",
+      "name": "Janaína Marchesi",
+      "filename": "janaina-marchesi.png",
+      "path": "assets/images/equipe/janaina-marchesi.png",
+      "alt": "Janaína Marchesi",
+      "aliases": ["janaina-marchesi.png", "janaina-marchesi", "Janaína Marchesi.png", "Janaína Marchesi"]
+    },
+    {
+      "category": "team",
+      "key": "joao-pedro-cunha",
+      "name": "João Pedro Cunha",
+      "filename": "joao-pedro-cunha.png",
+      "path": "assets/images/equipe/joao-pedro-cunha.png",
+      "alt": "João Pedro Cunha",
+      "aliases": ["joao-pedro-cunha.png", "joao-pedro-cunha", "João Pedro Cunha.png", "João Pedro Cunha"]
+    },
+    {
+      "category": "team",
+      "key": "julia-pareto",
+      "name": "Julia Pareto",
+      "filename": "julia-pareto.png",
+      "path": "assets/images/equipe/julia-pareto.png",
+      "alt": "Julia Pareto",
+      "aliases": ["julia-pareto.png", "julia-pareto", "Julia Pareto.png", "Julia Pareto"]
+    },
+    {
+      "category": "team",
+      "key": "jessica-villar",
+      "name": "Jéssica Villar",
+      "filename": "jessica-villar.png",
+      "path": "assets/images/equipe/jessica-villar.png",
+      "alt": "Jéssica Villar",
+      "aliases": ["jessica-villar.png", "jessica-villar", "Jéssica Villar.png", "Jéssica Villar"]
+    },
+    {
+      "category": "team",
+      "key": "julia-marques-barra",
+      "name": "Júlia Marques Barra",
+      "filename": "julia-marques-barra.png",
+      "path": "assets/images/equipe/julia-marques-barra.png",
+      "alt": "Júlia Marques Barra",
+      "aliases": ["julia-marques-barra.png", "julia-marques-barra", "Júlia Marques Barra.png", "Júlia Marques Barra"]
+    },
+    {
+      "category": "team",
+      "key": "leila-dantas",
+      "name": "Leila Dantas",
+      "filename": "leila-dantas.png",
+      "path": "assets/images/equipe/leila-dantas.png",
+      "alt": "Leila Dantas",
+      "aliases": ["leila-dantas.png", "leila-dantas", "Leila Dantas.png", "Leila Dantas"]
+    },
+    {
+      "category": "team",
+      "key": "leonardo-correa-gago",
+      "name": "Leonardo Correa Gago",
+      "filename": "leonardo-correa-gago.png",
+      "path": "assets/images/equipe/leonardo-correa-gago.png",
+      "alt": "Leonardo Correa Gago",
+      "aliases": ["leonardo-correa-gago.png", "leonardo-correa-gago", "Leonardo Correa Gago.png", "Leonardo Correa Gago"]
+    },
+    {
+      "category": "team",
+      "key": "leonardo-l-s-bastos",
+      "name": "Leonardo L. S. Bastos",
+      "filename": "leonardo-l-s-bastos.png",
+      "path": "assets/images/equipe/leonardo-l-s-bastos.png",
+      "alt": "Leonardo L. S. Bastos",
+      "aliases": ["leonardo-l-s-bastos.png", "leonardo-l-s-bastos", "Leonardo L. S. Bastos.png", "Leonardo L. S. Bastos", "leonardo.png", "leonardo", "Leonardo Bastos", "leonardo-bastos"]
+    },
+    {
+      "category": "team",
+      "key": "leticia-melcop",
+      "name": "Leticia Melcop",
+      "filename": "leticia-melcop.png",
+      "path": "assets/images/equipe/leticia-melcop.png",
+      "alt": "Leticia Melcop",
+      "aliases": ["leticia-melcop.png", "leticia-melcop", "Leticia Melcop.png", "Leticia Melcop"]
+    },
+    {
+      "category": "team",
+      "key": "lucas-maddalena",
+      "name": "Lucas Maddalena",
+      "filename": "lucas-maddalena.png",
+      "path": "assets/images/equipe/lucas-maddalena.png",
+      "alt": "Lucas Maddalena",
+      "aliases": ["lucas-maddalena.png", "lucas-maddalena", "Lucas Maddalena.png", "Lucas Maddalena"]
+    },
+    {
+      "category": "team",
+      "key": "luiz-eduardo-raffaini",
+      "name": "Luiz Eduardo Raffaini",
+      "filename": "luiz-eduardo-raffaini.png",
+      "path": "assets/images/equipe/luiz-eduardo-raffaini.png",
+      "alt": "Luiz Eduardo Raffaini",
+      "aliases": ["luiz-eduardo-raffaini.png", "luiz-eduardo-raffaini", "Luiz Eduardo Raffaini.png", "Luiz Eduardo Raffaini"]
+    },
+    {
+      "category": "team",
+      "key": "luiza-ferreira-camerini",
+      "name": "Luiza Ferreira Camerini",
+      "filename": "luiza-ferreira-camerini.png",
+      "path": "assets/images/equipe/luiza-ferreira-camerini.png",
+      "alt": "Luiza Ferreira Camerini",
+      "aliases": ["luiza-ferreira-camerini.png", "luiza-ferreira-camerini", "Luiza Ferreira Camerini.png", "Luiza Ferreira Camerini"]
+    },
+    {
+      "category": "team",
+      "key": "marcos-michelin",
+      "name": "Marcos Michelin",
+      "filename": "marcos-michelin.png",
+      "path": "assets/images/equipe/marcos-michelin.png",
+      "alt": "Marcos Michelin",
+      "aliases": ["marcos-michelin.png", "marcos-michelin", "Marcos Michelin.png", "Marcos Michelin"]
+    },
+    {
+      "category": "team",
+      "key": "maria-gabriela-campos",
+      "name": "Maria Gabriela Campos",
+      "filename": "maria-gabriela-campos.png",
+      "path": "assets/images/equipe/maria-gabriela-campos.png",
+      "alt": "Maria Gabriela Campos",
+      "aliases": ["maria-gabriela-campos.png", "maria-gabriela-campos", "Maria Gabriela Campos.png", "Maria Gabriela Campos"]
+    },
+    {
+      "category": "team",
+      "key": "mariana-lisker",
+      "name": "Mariana Lisker",
+      "filename": "mariana-lisker.png",
+      "path": "assets/images/equipe/mariana-lisker.png",
+      "alt": "Mariana Lisker",
+      "aliases": ["mariana-lisker.png", "mariana-lisker", "Mariana Lisker.png", "Mariana Lisker"]
+    },
+    {
+      "category": "team",
+      "key": "olivia-ranzani",
+      "name": "Olivia Ranzani",
+      "filename": "olivia-ranzani.png",
+      "path": "assets/images/equipe/olivia-ranzani.png",
+      "alt": "Olivia Ranzani",
+      "aliases": ["olivia-ranzani.png", "olivia-ranzani", "Olivia Ranzani.png", "Olivia Ranzani"]
+    },
+    {
+      "category": "team",
+      "key": "otavio-ranzani",
+      "name": "Otavio Ranzani",
+      "filename": "otavio-ranzani.png",
+      "path": "assets/images/equipe/otavio-ranzani.png",
+      "alt": "Otavio Ranzani",
+      "aliases": ["otavio-ranzani.png", "otavio-ranzani", "Otavio Ranzani.png", "Otavio Ranzani"]
+    },
+    {
+      "category": "team",
+      "key": "paula-medina-macaira",
+      "name": "Paula Medina Maçaira",
+      "filename": "paula-medina-macaira.png",
+      "path": "assets/images/equipe/paula-medina-macaira.png",
+      "alt": "Paula Medina Maçaira",
+      "aliases": ["paula-medina-macaira.png", "paula-medina-macaira", "Paula Medina Maçaira.png", "Paula Medina Maçaira"]
+    },
+    {
+      "category": "team",
+      "key": "paulo-henrique-simoes",
+      "name": "Paulo Henrique Simões",
+      "filename": "paulo-henrique-simoes.png",
+      "path": "assets/images/equipe/paulo-henrique-simoes.png",
+      "alt": "Paulo Henrique Simões",
+      "aliases": ["paulo-henrique-simoes.png", "paulo-henrique-simoes", "Paulo Henrique Simões.png", "Paulo Henrique Simões"]
+    },
+    {
+      "category": "team",
+      "key": "raphael-vicenzo-maniero",
+      "name": "Raphael Vicenzo Maniero",
+      "filename": "raphael-vicenzo-maniero.png",
+      "path": "assets/images/equipe/raphael-vicenzo-maniero.png",
+      "alt": "Raphael Vicenzo Maniero",
+      "aliases": ["raphael-vicenzo-maniero.png", "raphael-vicenzo-maniero", "Raphael Vicenzo Maniero.png", "Raphael Vicenzo Maniero"]
+    },
+    {
+      "category": "team",
+      "key": "renata-boeck",
+      "name": "Renata Boeck",
+      "filename": "renata-boeck.png",
+      "path": "assets/images/equipe/renata-boeck.png",
+      "alt": "Renata Boeck",
+      "aliases": ["renata-boeck.png", "renata-boeck", "Renata Boeck.png", "Renata Boeck"]
+    },
+    {
+      "category": "team",
+      "key": "silvio-hamacher",
+      "name": "Silvio Hamacher",
+      "filename": "silvio-hamacher.png",
+      "path": "assets/images/equipe/silvio-hamacher.png",
+      "alt": "Silvio Hamacher",
+      "aliases": ["silvio-hamacher.png", "silvio-hamacher", "Silvio Hamacher.png", "Silvio Hamacher", "hamacher.png", "hamacher"]
+    },
+    {
+      "category": "team",
+      "key": "soraida-aguilar",
+      "name": "Soraida Aguilar",
+      "filename": "soraida-aguilar.png",
+      "path": "assets/images/equipe/soraida-aguilar.png",
+      "alt": "Soraida Aguilar",
+      "aliases": ["soraida-aguilar.png", "soraida-aguilar", "Soraida Aguilar.png", "Soraida Aguilar"]
+    },
+    {
+      "category": "project",
+      "key": "impacto",
+      "name": "Impacto",
+      "filename": "impacto.png",
+      "path": "assets/images/projetos/impacto.png",
+      "alt": "Projeto Impacto",
+      "aliases": ["impacto.png", "impacto"]
+    },
+    {
+      "category": "project",
+      "key": "isaric",
+      "name": "ISARIC",
+      "filename": "isaric.png",
+      "path": "assets/images/projetos/isaric.png",
+      "alt": "Projeto ISARIC",
+      "aliases": ["isaric.png", "isaric", "isaric-3-0", "ISARIC 3.0"]
+    },
+    {
+      "category": "project",
+      "key": "saude-digital-mare",
+      "name": "Saúde Digital Maré",
+      "filename": "saude_digital-mare.png",
+      "path": "assets/images/projetos/saude_digital-mare.png",
+      "alt": "Projeto Saúde Digital Maré",
+      "aliases": ["saude_digital-mare.png", "saude_digital-mare", "saude-digital-mare", "Saúde Digital Maré"]
+    },
+    {
+      "category": "project",
+      "key": "xingu",
+      "name": "Xingu",
+      "filename": "xingu.png",
+      "path": "assets/images/projetos/xingu.png",
+      "alt": "Projeto Xingu",
+      "aliases": ["xingu.png", "xingu", "saude-indigena", "Saúde Indigena", "saude-indígena", "Saúde Indígena"]
+    }
+  ]
+}
