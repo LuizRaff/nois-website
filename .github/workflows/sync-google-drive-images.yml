@@ -37,6 +37,7 @@ jobs:
             const c = JSON.parse(process.env.GDRIVE_SERVICE_ACCOUNT_JSON);
             console.log('Google Project:', c.project_id);
             console.log('Service Account:', c.client_email);
+            "
             
       - name: Sync images from Google Drive
         run: npm run sync:drive
