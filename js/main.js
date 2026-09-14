@@ -33,10 +33,10 @@ class BannerSlider {
     }
 
     async loadImages() {
-        var fallbackImages = [
-            { src: './assets/images/banner/01.png', alt: 'Banner 1' },
-            { src: './assets/images/banner/02.png', alt: 'Banner 2' },
-            { src: './assets/images/banner/03.png', alt: 'Banner 3' }
+        this.images = [
+            { src: './assets/images/banner/01.png', alt: '1' },
+            { src: './assets/images/banner/02.png', alt: '2' },
+            { src: './assets/images/banner/03.png', alt: '3' }
         ];
 
         try {
